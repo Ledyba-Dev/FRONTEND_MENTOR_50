@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Outfit";
+  src: 
+  url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf") 
+  format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0000-00FF;
+  font-variant: small-caps;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: 
+    url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") 
+    format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0000-00FF;
+    font-variant: small-caps;
+    font-display: swap;
+  }
+  
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown: hsl(14, 45%, 36%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+    background-color: var(--White);
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main {
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+
+p, ul, ol {
+    font-family: "Outfit";
+    color: var(--Stone-600);
+    font-size: clamp(0.9rem, 3vw, 1.2rem);
+}
+
+ul, ol {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+li {
+    margin-left: -15px;
+    padding-left: 14px;
+    line-height: 29px;
+}
+
+h1, h2 {
+    font-family: "Young Serif";
+}
+
+strong {
+    color: var(--Stone-600);
+}
+
+.omeletteRecipeContainer article {
+    margin-top: 30px;
+    background-color: var(--Rose-50);
+    padding: 15px;
+}
+
+.omeletteRecipeContainer article h3 {
+    font-family: "Outfit";
+    color: var(--Rose-800);
+}
+
+h2 {
+    color: var(--Rose-800);
+}
+
+.ingredientsSection {
+    margin-top: 30px;
+}
+
+table {
+    font-family: "Outfit";
+    width: 50%;
+}
+
+table tr {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 15px 0;
+}
+
+table tr:nth-child(-n + 3) {
+    border-bottom: 2px solid rgba(123, 128, 128, 0.189);
+}
+
+table tr .title {
+    color: var(--Stone-600);
+}
+
+table tr .paragraph {
+    color: var(--Brown);
+    font-weight: 700;
+}
