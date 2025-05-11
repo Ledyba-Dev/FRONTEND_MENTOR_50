@@ -16,12 +16,6 @@
 ├── JUNIOR/
 │   ├── [próximos proyectos]
 │   └── ...
-│
-├── INTERMEDIOS/
-│   └── ...
-│
-└── AVANZADOS/
-    └── ...
 ```
 ---
 
