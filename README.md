@@ -34,7 +34,7 @@
 
 ## 📈 Progreso
 **Total completado:** 2/50  
-![Barra de progreso](https://progress-bar.dev/4/?title=Progreso&width=400)
+<progress value="2" max="50" style="width: 400px;"></progress> 4%
 
 ---
 
