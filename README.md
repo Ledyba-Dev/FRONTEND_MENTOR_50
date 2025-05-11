@@ -1,19 +1,49 @@
-# Frontend Mentor Challenges - 50 Projects 🚀
+# Frontend Mentor Challenges - 50 Proyectos 🚀
 
-¡Bienvenido/a a mi repositorio de proyectos Frontend Mentor! Aquí subiré las soluciones a **50 desafíos** de [Frontend Mentor](https://www.frontendmentor.io) para mejorar nuestras habilidades en desarrollo frontend. 
+¡Bienvenido/a al repositorio de proyectos Frontend Mentor! Aquí encontrarás soluciones a **50 desafíos** de [Frontend Mentor](https://www.frontendmentor.io) para practicar desarrollo frontend.
 
 ---
 
-## 🚀 Visión General
-Este repositorio contiene soluciones a **50 desafíos prácticos** de Frontend Mentor, enfocados en:
-- Mejorar habilidades en **HTML, CSS y JavaScript**.
-- Practicar metodologías como **BEM** y **Mobile First**.
-- Implementar buenas prácticas de código y accesibilidad.
+## 🗂 Estructura del Repositorio
 
-### Estructura del Repositorio
-Cada proyecto está organizado en carpetas individuales con la siguiente estructura:
 /PROYECTOS
-|----NOVATOS
-    - 01: [recipe-page-main](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/01_recipe-page-main)
-    - 02: [social-links-profile-main](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/02_social-links-profile-main)
-|----JUNIOR
+│
+├── NOVATOS/
+│ ├── 01_recipe-page-main
+│ ├── 02_social-links-profile-main
+│ └── ...
+│
+├── JUNIOR/
+│ ├── [próximos proyectos]
+│ └── ...
+
+---
+
+## 📌 Proyectos Completados
+
+### 🟢 Nivel Novato
+| #   | Proyecto | Enlace |
+|-----|----------|--------|
+| 01  | Recipe Page | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/01_recipe-page-main) |
+| 02  | Social Links Profile | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/02_social-links-profile-main) |
+
+### 🟡 Nivel Junior
+* Proyectos próximamente...
+
+---
+
+## 📈 Progreso
+**Total completado:** 2/50  
+![Barra de progreso](https://progress-bar.dev/4/?title=Progreso&width=400)
+
+---
+
+## 🛠 Cómo Usar
+Cada proyecto es autónomo. Para ver cualquier proyecto:
+1. Navega a la carpeta del proyecto deseado
+2. Abre el archivo `index.html` en tu navegador
+
+---
+
+> ✨ **Nota:** Este repositorio se actualizará progresivamente con nuevos desafíos.  
+> 🔗 [Visita Frontend Mentor](https://www.frontendmentor.io) para más retos de desarrollo web
