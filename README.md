@@ -5,18 +5,24 @@
 ---
 
 ## 🗂 Estructura del Repositorio
-
+```text
 /PROYECTOS
 │
 ├── NOVATOS/
-│ ├── 01_recipe-page-main
-│ ├── 02_social-links-profile-main
-│ └── ...
+│   ├── 01_recipe-page-main
+│   ├── 02_social-links-profile-main
+│   └── ...
 │
 ├── JUNIOR/
-│ ├── [próximos proyectos]
-│ └── ...
-
+│   ├── [próximos proyectos]
+│   └── ...
+│
+├── INTERMEDIOS/
+│   └── ...
+│
+└── AVANZADOS/
+    └── ...
+```
 ---
 
 ## 📌 Proyectos Completados
