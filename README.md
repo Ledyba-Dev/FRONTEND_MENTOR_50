@@ -34,7 +34,7 @@
 
 ## 📈 Progreso
 **Total completado:** 2/50  
-<progress value="2" max="50" style="width: 400px;"></progress> 4%
+![Progreso](https://img.shields.io/badge/Progreso-2%2F50_(4%25)-brightgreen)
 
 ---
 
