@@ -33,8 +33,8 @@
 ---
 
 ## 📈 Progreso
-**Total completado:** 2/50  
-![Progreso](https://img.shields.io/badge/Progreso-2%2F50_(4%25)-brightgreen)
+**Total completado:** 3/50  
+![Progreso](https://img.shields.io/badge/Progreso-3%2F50_(6%25)-brightgreen)
 
 ---
 
