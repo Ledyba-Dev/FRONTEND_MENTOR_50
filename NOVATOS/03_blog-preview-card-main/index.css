@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Figtree-Italic";
+  src: 
+  url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf") 
+  format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0000-00FF;
+  font-variant: small-caps;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: 
+  url("./assets/fonts/Figtree-VariableFont_wght.ttf") 
+  format("truetype");
+  font-weight: 500 900;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0000-00FF;
+  font-variant: small-caps;
+  font-display: swap;
+}
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray-500: hsl(0, 0%, 42%);
+    --Gray-950: hsl(0, 0%, 7%);
+    --Black: hsl(0, 0%, 0%);
+}
+
+body {
+    font-family: "Figtree-Italic";
+    height: 100dvh;
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: var(--White);
+    border: 1.9px solid var(--Gray-950);
+    padding: 23px;
+    border-radius: 14px;
+    max-width: 330px;
+    box-shadow: 11px 11px 0px black;
+}
+
+.cardImageContainer img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 14px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cardContentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.learningTooltip {
+    background-color: var(--Yellow);
+    font-weight: 800;
+    padding: 5px 14px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+time {
+    font-weight: 600;
+}
+
+.cardContentContainer h3 {
+    font-size: 1.29rem;
+    font-weight: 800;
+}
+
+.principalParagraph {
+    color: var(--Gray-500);
+    font-weight: 500;
+}
+
+.cardContentContainer article {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cardContentContainer article img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+@media (min-width: 800px) {
+    .card {
+        max-width: 400px;
+    }
+
+    .cardContentContainer h3 {
+        font-size: 1.6rem;
+    }
+}
