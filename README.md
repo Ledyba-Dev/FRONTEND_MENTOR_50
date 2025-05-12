@@ -26,7 +26,7 @@
 |-----|----------|--------|
 | 01  | Recipe Page | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/01_recipe-page-main) |
 | 02  | Social Links Profile | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/02_social-links-profile-main) |
-| 03  | Blog Preview Card Main [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/03_blog-preview-card-main)
+| 03  | Blog Preview Card Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/03_blog-preview-card-main) |
 
 ### 🟡 Nivel Junior
 * Proyectos próximamente...
