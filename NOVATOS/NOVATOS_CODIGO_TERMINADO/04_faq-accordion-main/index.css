@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "WorkSans";
+  src: 
+  url("./assets/fonts/WorkSans-VariableFont_wght.ttf") 
+  format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0000-00FF;
+  font-variant: small-caps;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "";
+  src: 
+  url("./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf") 
+  format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0000-00FF;
+  font-variant: small-caps;
+  font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    -White: hsl(0, 0%, 100%);
+    -Purple-100: hsl(275, 100%, 97%);
+    -Purple-600: hsl(292, 16%, 49%);
+    -Purple-950: hsl(292, 42%, 14%);
+}
+
+body {
+    background-color: var(--Purple-100);
+    height: 100dvh;
+    font-family: "WorkSans", sans-serif;
+    padding: 0 20px;
+}
+
+.backgroundContainer {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+}
+
+.backgroundContainer img {
+    width: 100%;
+}
+
+.accordion {
+    margin: 0 auto;
+    position: relative;
+    top: 220px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.accordionSectionHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 25px;
+}
+
+.accordionSectionHeader h3 {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.accordionSectionHeader img {
+    width: 25px;
+}
+
+.accordionItem button {
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 10px;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    text-align: start;
+    font-weight: 700;
+    color: var(--Purple-600);
+    cursor: pointer;
+    transition: background-color .2s ease;
+    border-radius: 10px;
+}
+
+.accordionItem button:hover {
+    background: hsl(275, 100%, 97%);
+}
+
+.accordionItem button span {
+    grid-column: 1 / 3;
+}
+
+.iconPlus, .iconMinus {
+    grid-row: 1 / 1;
+    grid-column: 3 / 4;
+    scale: 1;
+    transition: scale .3s ease;
+}
+
+.iconMinus.hidden,
+.iconPlus.hidden {
+    display: none;
+}
+
+.accordionContent {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 5px 0;
+    transition: max-height .3s ease-in-out;
+}
+
+.accordionContent p {
+    color: hsl(279, 14%, 56%);
+    font-size: .9rem;
+    text-wrap: pretty;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.accordionContent.showAccordion {
+    max-height: 200px;
+}
