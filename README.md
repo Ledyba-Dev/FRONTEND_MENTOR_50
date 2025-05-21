@@ -34,6 +34,8 @@
 | 01  | Recipe Page | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/NOVATOS_CODIGO_TERMINADO/01_recipe-page-main) |
 | 02  | Social Links Profile | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/NOVATOS_CODIGO_TERMINADO/02_social-links-profile-main) |
 | 03  | Blog Preview Card Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/NOVATOS_CODIGO_TERMINADO/03_blog-preview-card-main) |
+| 04  | Faq accordion Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/04_faq-accordion-main) |
+| 05  | Results summary Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/05_results-summary-component-main) |
 
 ### 🟡 Nivel Junior
 * Proyectos próximamente...
@@ -41,8 +43,8 @@
 ---
 
 ## 📈 Progreso
-**Total completado:** 4/50  
-![Progreso](https://img.shields.io/badge/Progreso-4%2F50_(8%25)-brightgreen)
+**Total completado:** 5/50  
+![Progreso](https://img.shields.io/badge/Progreso-5%2F50_(10%25)-brightgreen)
 
 ---
 
