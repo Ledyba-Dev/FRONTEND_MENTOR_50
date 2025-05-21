@@ -31,9 +31,9 @@
 ### 🟢 Nivel Novato
 | #   | Proyecto | Enlace |
 |-----|----------|--------|
-| 01  | Recipe Page | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/01_recipe-page-main) |
-| 02  | Social Links Profile | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/02_social-links-profile-main) |
-| 03  | Blog Preview Card Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/03_blog-preview-card-main) |
+| 01  | Recipe Page | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/NOVATOS_CODIGO_TERMINADO/01_recipe-page-main) |
+| 02  | Social Links Profile | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/NOVATOS_CODIGO_TERMINADO/02_social-links-profile-main) |
+| 03  | Blog Preview Card Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/NOVATOS_CODIGO_TERMINADO/03_blog-preview-card-main) |
 
 ### 🟡 Nivel Junior
 * Proyectos próximamente...
@@ -41,8 +41,8 @@
 ---
 
 ## 📈 Progreso
-**Total completado:** 3/50  
-![Progreso](https://img.shields.io/badge/Progreso-3%2F50_(6%25)-brightgreen)
+**Total completado:** 4/50  
+![Progreso](https://img.shields.io/badge/Progreso-4%2F50_(8%25)-brightgreen)
 
 ---
 
