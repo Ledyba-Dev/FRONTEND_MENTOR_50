@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --orange-color: hsl(25, 97%, 53%);
+    --white-color: hsl(0, 0%, 100%);
+    --light-grey-color: hsl(217, 12%, 63%);
+    --medium-grey-color: hsl(216, 12%, 54%);
+    --dark-blue-color: hsl(213, 27%, 13%);
+    --dark-blue-color-60: hsla(214, 17%, 26%, 0.483);
+    --very-dark-blue-color: hsl(216, 12%, 8%);
+    --font-size-paragraph: 15px;
+}
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Overpass";
+    background-color: var(--very-dark-blue-color);
+    padding: 0 20px;
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+}
+
+.card {
+    background-color: var(--dark-blue-color);
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.card .card__img {
+    background-color: var(--dark-blue-color-60);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    transition: transform .3s ease;
+}
+
+.card .card__img:hover {
+    transform: scale(1.2);
+}
+
+.titleH2 {
+    color: var(--white-color);
+    font-size: 1.9rem;
+}
+
+.paragraph {
+    color: var(--light-grey-color);
+    margin-block: 17px;
+    text-wrap: pretty;
+    font-size: 1.2rem;
+}
+
+.card .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.card .buttons .btnNumber {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--dark-blue-color-60);
+    border: none;
+    color: var(--light-grey-color);
+    font-weight: 700;
+}
+
+.card .buttons .btnNumber:hover {
+    background-color: var(--white-color);
+    color: var(--dark-blue-color);
+    cursor: pointer;
+}
+
+.card .buttons .btnNumber.active {
+    background-color: var(--orange-color);
+    color: var(--white);
+}
+
+.btnSubmit {
+    background-color: var(--orange-color);
+    border: none;
+    padding: 15px 0;
+    border-radius: 50px;
+    color: var(--dark-blue-color);
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+}
+
+.btnSubmit:hover {
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+
+.cardThankYou img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cardThankYou span {
+    color: var(--orange-color);
+    background-color: var(--dark-blue-color-60);
+    padding: 10px 0;
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin: 30px auto 45px auto;
+    border-radius: 50px;
+}
+
+.cardThankYou .titleH2 {
+    text-align: center;
+}
+
+.cardThankYou .paragraph {
+    text-align: center;
+    text-wrap: pretty;
+}
+
+@media (min-width: 768px) {
+    .card .card__img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card .card__textContent h2 {
+        font-size: 2.4rem;
+    }
+
+    .card .card__textContent p {
+        font-size: 1.3rem;
+    }
+
+    .card .buttons .btnNumber {
+        width: 65px;
+        height: 65px;
+    }
+}

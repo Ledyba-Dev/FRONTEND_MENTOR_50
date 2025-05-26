@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card__img">
+            <img src="images/icon-star.svg" alt="star icon">
+        </div>
+        <section class="card__textContent">
+            <h2 class="titleH2">How did we do?</h2>
+            <p class="paragraph">
+                Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!
+            </p>
+        </section>
+        <div class="buttons">
+            <button class="btnNumber">1</button>
+            <button class="btnNumber">2</button>
+            <button class="btnNumber">3</button>
+            <button class="btnNumber">4</button>
+            <button class="btnNumber">5</button>
+        </div>
+        <button class="btnSubmit">SUBMIT</button>
+    </div>
+    
+    <template id="template">
+        <div class="card cardThankYou">
+            <img src="images/illustration-thank-you.svg" alt="thank you image">
+            <span id="score">You selected 4 out of 5</span>
+            <h2 class="titleH2">Thank you!</h2>
+            <p class="paragraph">We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!</p>
+        </div>
+    </template>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
