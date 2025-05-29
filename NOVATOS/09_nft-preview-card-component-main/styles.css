@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+    --soft-blue: #8bacda;
+    --cyan: #00fff7;
+    --very-dark-blue: #0d192b;
+    --very-dark-blue-card: #14253d;
+    --very-dark-blue-line: #2f415b;
+    --white: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    height: 100dvh;
+    background-color: var(--very-dark-blue);
+    font-family: "Outfit", sans-serif;
+    display: grid;
+    place-content: center;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 450px;
+    background-color: var(--very-dark-blue-card);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card .equilibriumImg {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.card .equilibriumImg img {
+    border-radius: 15px;
+}
+
+.card .equilibriumImg::before {
+    content: "";
+    background-color: #00fff787;
+    inset: 0;
+    border-radius: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+}
+
+.card .equilibriumImg::after {
+    content: "";
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card .equilibriumImg:hover::before,
+.card .equilibriumImg:hover::after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.cardContent {
+    margin-top: 25px;
+}
+
+/* 1rem 16px */
+.cardContent h2 {
+    color: var(--white);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.cardContent p {
+    color: var(--soft-blue);
+    font-size: 1.15em;
+    font-weight: 300;
+    margin-block: 20px;
+    text-wrap: pretty;
+}
+
+.cardContent .cardInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardContent .cardInfo .time,
+.cardContent .cardInfo .price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardContent .cardInfo .time img {
+    width: 25px;
+}
+
+.cardContent .cardInfo .time span {
+    color: var(--soft-blue);
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.cardContent .cardInfo .price {
+    color: var(--cyan);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.card .footerCard {
+    margin-top: 25px;
+    border-top: 1px solid var(--very-dark-blue-line);
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card .footerCard span {
+    color: var(--soft-blue);
+}
+
+.card .footerCard span strong {
+    color: var(--white);
+}
+
+.card .footerCard img {
+    width: 45px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.card .cardContent h2:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card .footerCard strong:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
