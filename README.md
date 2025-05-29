@@ -47,7 +47,7 @@
 
 ## 📈 Progreso
 **Total completado:** 8/50  
-![Progreso](https://img.shields.io/badge/Progreso-5%2F50_(16%25)-brightgreen)
+![Progreso](https://img.shields.io/badge/Progreso-8%2F50_(16%25)-brightgreen)
 
 ---
 
