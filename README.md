@@ -36,9 +36,9 @@
 | 03  | Blog Preview Card Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/NOVATOS_CODIGO_TERMINADO/03_blog-preview-card-main) |
 | 04  | Faq accordion Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/04_faq-accordion-main) |
 | 05  | Results summary Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/05_results-summary-component-main) |
-| 06  | Results summary Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/06_product-preview-card-component-main) |
-| 07  | Results summary Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/07_interactive-rating-component-main) |
-| 08  | Results summary Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/08_qr-code-component-main) |
+| 06  | Product Preview Card Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/06_product-preview-card-component-main) |
+| 07  | Interactive Rating Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/07_interactive-rating-component-main) |
+| 08  | Qr Code Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/08_qr-code-component-main) |
 
 ### 🟡 Nivel Junior
 * Proyectos próximamente...
