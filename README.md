@@ -40,6 +40,7 @@
 | 07  | Interactive Rating Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/07_interactive-rating-component-main) |
 | 08  | Qr Code Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/08_qr-code-component-main) |
 | 09  | Nft Preview Card Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/09_nft-preview-card-component-main) |
+| 10  | Order Summary Component Main | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/10_order-summary-component-main) |
 
 ### 🟡 Nivel Junior
 * Proyectos próximamente...
@@ -47,8 +48,8 @@
 ---
 
 ## 📈 Progreso
-**Total completado:** 9/50  
-![Progreso](https://img.shields.io/badge/Progreso-9%2F50_(18%25)-brightgreen)
+**Total completado:** 10/50  
+![Progreso](https://img.shields.io/badge/Progreso-10%2F50_(20%25)-brightgreen)
 
 ---
 
