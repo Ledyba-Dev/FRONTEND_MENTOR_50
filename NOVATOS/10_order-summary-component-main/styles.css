@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+    --pale-blue: #e0e8ff;
+    --bright-blue: #3829e0;
+    --bright-blue-hover: #756af1;
+    --very-pale-blue: #f5f7ff;
+    --desaturated-blue: #7280a7;
+    --dark-blue: #1f2f56;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: "Red Hat Display";
+    height: 100dvh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--pale-blue);
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardSummary {
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 375px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.summaryCardSection {
+    padding: 30px;
+}
+
+.summaryCardSection h1 {
+    text-align: center;
+    font-weight: 900;
+    color: var(--dark-blue);
+    margin-bottom: 15px;
+}
+
+.summaryCardSection .summaryParagraph {
+    text-align: center;
+    color: var(--desaturated-blue);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.summaryCardSection .annualPlan {
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.summaryCardSection .annualPlan a {
+    color: var(--bright-blue);
+    font-weight: 700;
+    font-size: 14px;
+    transition: color .3s ease-in-out;
+}
+
+.summaryCardSection .annualPlan a:hover {
+    color: var(--bright-blue-hover);
+    text-decoration: none;
+}
+
+.summaryCardSection .annualPlan img {
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.summaryCardSection .annualPlan .annualPlanText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.summaryCardSection .annualPlan .annualPlanText h2 {
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.summaryCardSection .annualPlan .annualPlanText p {
+    color: var(--desaturated-blue);
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.summaryCardSection .proceedToPayment {
+    background-color: var(--bright-blue);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    border: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: background-color .3s ease-in-out;
+}
+
+.summaryCardSection .proceedToPayment:hover {
+    background-color: var(--bright-blue-hover);
+    cursor: pointer;
+}
+
+.summaryCardSection .cancelOrder {
+    color: var(--desaturated-blue);
+    font-weight: 700;
+    text-align: center;
+    transition: color .3s ease-in-out;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.summaryCardSection .cancelOrder:hover {
+    color: var(--dark-blue);
+    cursor: pointer;
+}
