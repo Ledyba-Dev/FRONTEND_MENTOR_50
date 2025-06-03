@@ -1,0 +1,146 @@
+:root {
+    --VeryDarkBlue: #090b1a;
+    --DarkDesaturatedBlue: hsl(244, 38%, 16%);
+    --Softviolet: hsl(277, 64%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --SlightlyTransparentWhite : hsla(0, 0%, 100%, 0.75);
+    --SlightlyTransparentWhite : hsla(0, 0%, 100%, 0.6);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--VeryDarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.card {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    background-color: var(--DarkDesaturatedBlue);
+}
+
+.containerImg {
+    position: relative;
+}
+
+.containerImg img {
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bgColor {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 86%, 40%, 0.532);
+    top: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.cardTextContainer {
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.cardTextContainer h1 {
+    color: var(--White);
+}
+
+.cardTextContainer h1 span {
+    color: var(--Softviolet);
+}
+
+.cardTextContainer h1 + p {
+    color: var(--SlightlyTransparentWhite);
+    margin: 20px 0;
+}
+
+.estadisticasSeccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.estadisticasSeccion p {
+    color: var(--SlightlyTransparentWhite);
+    font-weight: 400;
+}
+
+.estadisticasSeccion p span {
+    color: var(--White);
+    font-weight: 700;
+    font-size: 1.5em;
+    display: block;
+}
+
+@media (min-width: 800px) {
+    .card {
+        display: flex;
+    }
+
+    .containerImg {
+        flex: 1;
+        order: 2;
+    }
+
+    .containerImg img {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .cardTextContainer {
+        flex: 1;
+        text-align: start;
+    }
+
+    .cardTextContainer h1 {
+        font-size: 2em;
+        text-wrap: balance;
+    }
+
+    .cardTextContainer p {
+        font-size: 1.1em;
+        text-wrap: balance;
+    }
+
+    .bgColor {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .cardTextContainer {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0 40px 50px;
+    }
+
+    .estadisticasSeccion {
+        flex-direction: row;
+        justify-content: start;
+        gap: 35px;
+    }
+}
+
+

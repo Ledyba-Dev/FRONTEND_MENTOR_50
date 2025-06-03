@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <picture class="containerImg">
+            <!-- Usa esta imagen si el ancho de pantalla es mínimo 800px -->
+            <source media="(min-width: 800px)" srcset="./images/image-header-desktop.jpg">
+            <!-- Imagen por defecto (si ninguna condición anterior se cumple) -->
+            <img src="images/image-header-mobile.jpg" alt="card img">
+            <div class="bgColor"></div>
+        </picture>
+
+        <article class="cardTextContainer">
+            <h1>Get <span>insights</span> that help your business grow.</h1>
+
+            <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+                experience, and overall efficiency.</p>
+            
+            <div class="estadisticasSeccion">
+                <p>
+                    <span>10k</span>
+                    COMPANIES
+                </p>
+                <p>
+                    <span>313</span>
+                    TEMPLATES
+                </p>
+                <p>
+                    <span>12M+</span>
+                    QUERIES
+                </p>
+            </div>
+        </article>
+    </div>
+
+</body>
+
+</html>
