@@ -3,14 +3,6 @@
 ¡Bienvenido/a al repositorio de proyectos Frontend Mentor! Aquí encontrarás soluciones a **50 desafíos** de [Frontend Mentor](https://www.frontendmentor.io) para practicar desarrollo frontend.
 ---
 
-## ⏰ Horario de los directos en Tiktok @rocodev23
-### México ➡️ 21:00 p.m
-### Colombia ➡️ 22:00 p.m
-### Perú ➡️ 22:00 p.m
-### Argentina ➡️ 00:00
-
----
-
 ## 🗂 Estructura del Repositorio
 ```text
 /PROYECTOSa
