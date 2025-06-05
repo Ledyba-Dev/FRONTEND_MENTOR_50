@@ -35,6 +35,9 @@
 | 10  | Order Summary Component | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/10_order-summary-component-main) |
 | 11  | Start Preview Card Component | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/11_stats-preview-card-component-main) |
 | 12  | 3 Column Preview Card Component | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/12_3-column-preview-card-component-main) |
+| 13  | Profile Card Component | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/13_profile-card-component-main) |
+
+
 
 
 ### 🟡 Nivel Junior
@@ -43,8 +46,8 @@
 ---
 
 ## 📈 Progreso
-**Total completado:** 12/50  
-![Progreso](https://img.shields.io/badge/Progreso-12%2F50_(24%25)-brightgreen)
+**Total completado:** 13/50  
+![Progreso](https://img.shields.io/badge/Progreso-13%2F50_(26%25)-brightgreen)
 
 ---
 
