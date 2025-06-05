@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    /* PRIMARY */
+    --darkCyan: #19a2ae;
+    --veryDarkDesaturatedBlue: #2d3248;
+    --darkGrayishBlue: hsl(227, 10%, 46%);
+    /* NEUTRAL */
+    --darkGray: #969696;
+
+    --body-title: clamp(1rem, 4vw, 1.3rem);
+    --body-paragraph: clamp(1rem, 2vw, 1.1rem);
+    --card-social-title: clamp(1rem, 4vw, 1.3rem);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+    background-color: var(--darkCyan);
+    font-family: 'Kumbh Sans';
+    background-image: 
+        url(images/bg-pattern-top.svg), 
+        url(images/bg-pattern-bottom.svg);
+    background-repeat: 
+        no-repeat 
+        no-repeat;
+    background-position: 
+        right 50vw bottom 50vh,
+        left 50vw top 50vh;
+    
+    background-size: cover;
+}
+
+.card {
+    width: min(90%, 350px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 4px 4px 20px #2d324840;
+}
+
+.card__pattern {
+    border-radius: 10px 10px 0 0;
+}
+
+.card__user_section {
+    text-align: center;
+}
+
+.card__user_section p {
+    color: var(--darkGray);
+}
+
+.card__user_photo {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    transform: translateY(-39px);
+    border: 5px solid white;
+    margin: 0 auto;
+    margin-bottom: -25px;
+}
+
+.card__user_name {
+    font-size: var(--body-title);
+    color: var(--veryDarkDesaturatedBlue);
+    margin-bottom: 5px;
+}
+
+.card__user_name span {
+    color: var(--darkGray);
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.card__social_section {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.card__social_item h3 {
+    color: var(--veryDarkDesaturatedBlue);
+}
+
+.card__social_item span {
+    color: var(--darkGray);
+    font-size: .8em;
+}
+
+.hrDiv {
+    margin-top: 30px;
+    height: 2px;
+    width: 100%;
+    border: 0;
+    background-color: #2d324812;
+}
