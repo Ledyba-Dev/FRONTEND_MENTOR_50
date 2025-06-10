@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+    --Font: "Manrope", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    font-family: var(--Font);
+    background-color: var(--Light-Grayish-Blue);
+    height: 100dvh;
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.119);
+    display: flex;
+    height: 360px;
+}
+
+.imgContainer {
+    flex: 3;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+.textContainer {
+    flex: 5;
+    padding: 30px;
+    display: grid;
+    place-content: center;
+}
+
+.textContainer h2 {
+    font-size: clamp(1.3em, 2vw, 1.7em);
+    font-weight: 700;
+    color: var(--Very-Dark-Grayish-Blue);
+    margin-bottom: 10px;
+    text-wrap: pretty;
+}
+
+.textContainerParagraph {
+    font-size: clamp(1em, 2vw, 1.1em);
+    font-weight: 500;
+    color: var(--Desaturated-Dark-Blue);
+    margin-bottom: 30px;
+    text-wrap: pretty;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileImg {
+    width: 50px;
+    height: 50px;
+    border: 50%;
+    margin-right: 18px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.profileInfo h3 {
+    font-size: clamp(1em, 2vw, 1.1em);
+    font-weight: 700;
+}
+
+.profileInfo p {
+    font-size: clamp(0.8em, 2vw, 1em);
+    font-weight: 500;
+    color: var(--Desaturated-Dark-Blue);
+}
+
+.share {
+    background-color: var(--Light-Grayish-Blue);
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: auto;
+    display: grid;
+    place-content: center;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.share img {
+    width: 25px;
+    height: 25px;
+    aspect-ratio: 1 / 1;
+}
+
+.shareContainer {
+    position: relative;
+    z-index: 2;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 80px;
+    left: -105px;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    padding: 15px 35px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.shareToggle {
+    display: none;
+}
+
+.shareToggle:checked ~ .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.shareToggle:checked ~ .share {
+    background-color: var(--Desaturated-Dark-Blue);
+}
+
+.shareToggle:checked + .share img {
+    filter: brightness(0) invert(1);
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: 
+        var(--Very-Dark-Grayish-Blue) 
+        transparent
+        transparent
+        transparent;
+}
+
+.tooltip span {
+    color: var(--Grayish-Blue);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.tooltip a img {
+    width: auto;
+}
+
+.tooltip a:hover {
+    transform: scale(1.1);
+    transition: transform .3s ease;
+}
+
+@media (max-width: 900px) {
+
+    .container {
+        padding: 24px;
+    }
+
+    .card {
+        flex-direction: column;
+        height: auto;
+        max-width: 400px;
+    }
+
+    .imgContainer {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .profile {
+        position: relative;
+    }
+
+    .shareContainer {
+        position: static;
+    }
+
+    .tooltip {
+        bottom:  -30px;
+        left: -30px;
+        width: calc(100% + 60px);
+        border: 0 0 10px 10px;
+        z-index: 1;
+    }
+
+    .shareToggle:checked ~ .tooltip {
+        visibility: visible;
+        opacity: 1;
+        padding: 40px 30px;
+    }
+
+    .tooltip::after {
+        display: none;
+    }
+
+    .tooltip span {
+        margin-right: 10px;
+    }
+}
