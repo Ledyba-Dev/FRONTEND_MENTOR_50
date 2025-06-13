@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-cyan-400: #45d3d3;
+    --clr-red-400: #ea5353;
+    --clr-orange-400: #fcaf4a;
+    --clr-blue-400: #549ef2;
+    --clr-grey-500: #4c4e61;
+    --clr-grey-400: #697077;
+    --clr-white: #ffffff;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100dvh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.featureSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureSection__title {
+    font-size: clamp(2em, 6vw, 2.9em);
+    font-weight: 300;
+    color: var(--clr-grey-400);
+    text-wrap: balance;
+    text-align: center;
+}
+
+.featureSection__title strong {
+    color: var(--clr-grey-500);
+    font-weight: 700;
+}
+
+.featureSection__description {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: var(--clr-grey-400);
+    text-align: center;
+    text-wrap: balance;
+    margin: 10px 0 50px;
+}
+
+.featureSection__cards {
+    display: grid;
+    grid-template-areas: 
+    "card1"
+    "card2"
+    "card3"
+    "card4";
+}
+
+.featureSection__card {
+    background-color: var(--clr-white);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.featureSection__card img {
+    margin-top: 90px;
+    margin-left: auto;
+    display: block;
+}
+
+.featureSection__card--cyan {
+    border-top: 5px solid var(--clr-cyan-400);
+    grid-area: card1;
+}
+
+.featureSection__card--red {
+    border-top: 5px solid var(--clr-red-400);
+    grid-area: card2;
+}
+
+.featureSection__card--orange {
+    border-top: 5px solid var(--clr-orange-400);
+    grid-area: card3;
+}
+
+.featureSection__card--blue {
+    border-top: 5px solid var(--clr-blue-400);
+    grid-area: card4;
+}
+
+@media (min-width: 1000px) {
+    .featureSection__cards {
+        grid-template-areas: 
+        ".      card2       ."
+        "card1  card2   card4"
+        "card1  card3   card4"
+        ".      card3       ."  
+        ;
+        gap: 20px;
+        row-gap: 0;
+    }
+
+    .featureSection__card {
+        max-height: 300px;
+    }
+}
