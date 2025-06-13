@@ -36,6 +36,9 @@
 | 11  | Start Preview Card Component | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/11_stats-preview-card-component-main) |
 | 12  | 3 Column Preview Card Component | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/12_3-column-preview-card-component-main) |
 | 13  | Profile Card Component | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/13_profile-card-component-main) |
+| 14  | Social proof section | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/14_social-proof-section-master) |
+| 15  | Article preview component | [Ver código](https://github.com/Ledyba-Dev/FRONTEND_MENTOR_50/tree/main/NOVATOS/15_article-preview-component-master) |
+
 
 
 
@@ -46,8 +49,8 @@
 ---
 
 ## 📈 Progreso
-**Total completado:** 13/50  
-![Progreso](https://img.shields.io/badge/Progreso-13%2F50_(26%25)-brightgreen)
+**Total completado:** 15/50  
+![Progreso](https://img.shields.io/badge/Progreso-15%2F50_(30%25)-brightgreen)
 
 ---
 
