@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/logo.svg" alt="logo">
+    </header>
+    <div class="heroImgContainer"></div>
+    <main>
+        <div class="contentContainer">
+            <h1>We're <span>coming soon</span></h1>
+            <p class="contentParagraph">
+                Hello fellow shoppers! We're currently building our new fashion store.
+                Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+            <form class="form">
+                <label for="email">
+                    <input placeholder="Email Address" id="email" type="text">
+                    <svg id="errorIcon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                    </svg>
+                </label>
+                <button type="submit">
+                    <img src="images/icon-arrow.svg" alt="arrow">
+                </button>
+            </form>
+            <p class="errorParagraph">Please provide a valid email</p>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
