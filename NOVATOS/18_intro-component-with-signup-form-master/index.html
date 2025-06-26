@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="main">
+
+        <section class="principalSeccion">
+            <h1 class="principalSeccion_titulo">Learn to code by watching others</h1>
+            <p class="principalSeccion_parrafo">
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+                but understanding how developers think is invaluable.
+            </p>
+        </section>
+
+        <div class="formSeccion">
+
+            <button class="formSeccion_btn">
+                <strong>Try it free 7 days</strong> then $20/mo. thereafter
+            </button>
+
+            <form class="formSeccion_formulario">
+
+                <div class="grupoNombre grupo">
+                    <label class="grupoNombre_label" for="nombre">
+                        <input class="inputNombre" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    </label>
+
+                    <svg class="errorIcono" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                    </svg>
+                    <p class="mensajeError"></p>
+                </div>
+
+                <div class="grupoApellido grupo">
+                    <label class="grupoApellido_label" for="apellido">
+                        <input class="inputApellido" type="text" name="apellido" id="apellido" placeholder="Apellido">
+                    </label>
+
+                    <svg class="errorIcono" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                    </svg>
+                    <p class="mensajeError"></p>
+                </div>
+
+                <div class="grupoCorreo grupo">
+                    <label class="grupoCorreo_label" for="correo">
+                        <input class="inputCorreo" type="email" name="correo" id="correo" placeholder="Correo"
+                            autocomplete="email">
+                    </label>
+
+                    <svg class="errorIcono" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                    </svg>
+                    <p class="mensajeError"></p>
+                </div>
+
+                <div class="grupoContrasena grupo">
+                    <label class="grupoContrasena_label" for="contrasena">
+                        <input class="inputContrasena" type="password" name="nombre" id="contrasena"
+                            placeholder="Contraseña" autocomplete="current-password">
+                    </label>
+
+                    <button type="button" class="toggle-password">
+                        <svg class="eye-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                            <path
+                                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
+                        </svg>
+                    </button>
+
+                    <svg class="errorIcono" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                    </svg>
+                    <p class="mensajeError"></p>
+                </div>
+
+                <button class="botonEnviar" type="submit">
+                    Claim your free trial
+                </button>
+                <p class="formParrafo">
+                    By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
